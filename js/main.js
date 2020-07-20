@@ -30,6 +30,8 @@
             if(validate(input[i]) == false){
                 if(input[i].localName!="select"){
                     showValidate(input[i]);
+                }else{
+                    alert("Please select");
                 }
                 check=false;
             }

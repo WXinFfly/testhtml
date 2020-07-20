@@ -61,9 +61,9 @@ select[disabled] + .gl-star-rating-stars {
 
 .gl-star-rating-stars > span {
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-size: 24px;
+  width: 44px;
+  height: 44px;
+  background-size: 44px;
   background-repeat: no-repeat;
   background-image: url(../img/star-empty.svg);
   margin: 0 4px 0 0;
@@ -106,7 +106,7 @@ select[disabled] + .gl-star-rating-stars {
   white-space: nowrap;
   vertical-align: middle;
   padding: 0 12px 0 6px;
-  margin: 0 0 0 12px;
+  margin: 15px 5px 0 12px;
 }
 
 .gl-star-rating-text::before {

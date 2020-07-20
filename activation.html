@@ -28,6 +28,7 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="css/star-rating.css" rel="stylesheet" />
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <!--===============================================================================================-->
 </head>
 <body>
@@ -37,16 +38,23 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" action="rating.html">
 				<span class="contact100-form-title">
-					Congratulations!  <br/>
-					Your product lifetime warranty has been activated!
+					<i class="fa fa-check-circle-o fa-5x" style="color: #00ad5f;" aria-hidden="true"></i>
+<br><br>
+    <span style=" text-transform: uppercase;  line-height: 2.5;  font-size: 30px">Congratulations!  </span>
+    
+    <br><br>
+    
+    					Your product lifetime warranty has been activated!
+
 				</span>
+				
 		
-					<div class="wrap-input100 input100-select validate-input bg1">
-						<span class="label-input100">Are you satisfied with your purchase? Please rate. <br/>
-						5 star means satisfied; 1 star means unsatisfied.
+					<div class="wrap-input100 input100-select validate-input bg1" style="height: 180px">
+						<span class="label-input100" style="text-transform:capitalize; font-size:20px">Are you satisfied with your purchase? Please rate. <br>
+						5 star means satisfied; <br>1 star means unsatisfied.
 						</span>
 					<div>
-						<select class="star-rating input100" name="rating">						  	
+						<select class="star-rating input100"  name="rating">						  	
 							<option value="">Select a rating</option>
     						<option value="5">Excellent</option>
     						<option value="4">Very Good</option>
