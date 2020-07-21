@@ -31,7 +31,7 @@
                 if(input[i].localName!="select"){
                     showValidate(input[i]);
                 }else{
-                    alert("Please select");
+                   // alert("Please select");
                 }
                 check=false;
             }
