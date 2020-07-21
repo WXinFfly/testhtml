@@ -61,9 +61,9 @@ select[disabled] + .gl-star-rating-stars {
 
 .gl-star-rating-stars > span {
   display: inline-block;
-  width: 34px;
+  width: 28px;
   height: 34px;
-  background-size: 34px;
+  background-size: 28px;
   background-repeat: no-repeat;
   background-image: url(../img/star-empty.svg);
   margin: 0 4px 0 0;
